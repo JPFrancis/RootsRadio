@@ -1,0 +1,244 @@
+body{
+	margin: 0; padding: 0;
+}
+img.background{
+	width: 1280px; opacity: .5; margin-top: -10px; margin-left: 0px; float: left;position: absolute;
+}
+
+.background-mobile{
+	display: none;
+}
+.menu{
+	z-index: 3;
+	width: 51px;
+	height: 34px;
+	margin-top: 20px;
+	margin-left: 15px;
+	position: absolute;
+	background-color: black;
+}
+
+#password-popup{
+	margin-left: 40%; margin-top: 100px;height:75px; border-radius: 10px; width:360px; opacity:0; background-color:white; position:fixed;	
+}
+
+#password-popup input{
+	float:left; margin: 20px; padding: 2px; border-radius: 5px; width: 200px; font-size: 22px;
+}
+
+div#submit{
+	background-color: black; border-radius: 5px; width: 85px; margin-left: 240px; color: white; font-size: 22px; margin-top: 20px; padding: 4px;
+}
+
+#create-popup{
+	margin-left: 30%; margin-top: 60px;height:560px; border-radius: 10px; width:360px; opacity:0; background-color:white; position:fixed;	
+}
+
+#create-popup input{
+	float:left; margin: 12px; padding: 2px; border-radius: 5px; width: 200px; font-size: 22px;
+}
+
+#create-popup textarea{
+	margin-left: 12px;
+}
+
+#create-popup h2{
+	margin-left: 15px;
+}
+
+#create-popup p{
+	font-size: 18px;
+	margin: none;
+	margin-left: 15px;
+	width: 60px;
+	float: left;
+	height: 10px;
+}
+
+div#create{
+	position: absolute;
+	height: 30px;
+	background-color: black; 
+	border-radius: 5px; 
+	width: 85px; 
+	margin-left: 15px; 
+	color: white; 
+	font-size: 22px; 
+	margin-top: 20px; 
+	padding: 4px;
+}
+
+div#create:hover{
+	cursor: pointer;
+}
+
+.cam-container{
+	width: 320px;
+	height: 240px;
+	margin-left: 15px;
+}
+
+.menu:hover{
+	background-color: white;
+}
+
+.menu > div{
+	background-color: white;
+	height: 3px;
+	width:  40px;
+	margin: 5px;
+	border: .5px solid black;
+}
+
+.menu:hover > div{
+	background-color: black;
+}
+
+.menu:active > div{
+	background-color: black;
+}
+
+.nav{
+	height:740px;box-shadow: inset -7px 0 9px -7px #333; width: 182px; z-index:3; opacity: 1; position: absolute; float: left; margin-left: -200px;
+	background-color: white; margin-top: -12px; padding: 10px; position: fixed;
+}
+
+.nav p{
+	font-size: 20px; width: 160px; position: absolute;
+}
+
+.nav ul{
+	margin-top: 70px; list-style-type: none;
+}
+
+.nav ul a{
+text-decoration: none;
+}
+
+.nav li{
+	padding:10px; color: grey
+}
+
+iframe{
+	width:200px; height:150px; background-color: black; position: relative; z-index: 2; margin: 15px;	
+}
+
+.grid{
+	margin-left: 65px;
+	margin-top: 45px;
+	width: 980px;
+	position: absolute;
+}
+
+.timeline{
+	position: absolute;
+	z-index: 2;
+	margin-left: 80px;
+	margin-top: 8px;
+	width: 1200px;
+}
+
+.timeline p{
+	float: left;
+	margin-right: 40px;
+	font-weight: bold;
+	margin-top: 15px;
+	font-size: 20px;
+	color: #6f6c6c;
+}
+
+.timeline p.enabled{
+	color: black;
+}
+
+.timeline p.enabled:hover{
+	cursor: pointer;
+}
+
+#submit:hover{
+	cursor: pointer;
+}
+
+iframe.archive {
+	margin-left: -60px;
+	width: 800px;
+	height:500px; background-color: black; position: absolute; z-index: 2;
+}
+
+iframe.large{
+	width: 800px;
+	height: 500px;
+}
+
+iframe.small{
+	position: relative;
+	width: 380px;
+	height: 250px;
+	margin-right: 95px;
+}
+
+section{
+	display: none;
+}
+
+
+
+#archive-timeline p.enabled{
+	color: black;
+}
+
+
+.timeline p:hover{
+	cursor: pointer;
+}
+
+.post-sign-in {
+  display: none;
+  margin: 20px;
+}
+
+.during-upload {
+  display: none;
+}
+
+.post-upload {
+  display: none;
+}
+
+#channel-name {
+margin: 20px;
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+label {
+	margin: 20px;
+  display: block;
+}
+
+input[type="text"], textarea, progress {
+	margin: 20px;
+  font-size: 0.75em;
+  width: 15em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  font-family: "Open Sans", sans-serif;
+}
+
+textarea {
+margin: 20px;
+  height: 7em;
+}
+
+.new{
+	display: none;
+}
+
+#new p{
+	margin-left: 15px;
+	margin-top: 20px;
+	font-size: 20px;
+	background-color: white;
+	padding: 5px;
+	width: px;
+}
